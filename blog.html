@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-10/12 mx-auto">
+    <h2 class="text-center my-5 lg:text-5xl text-2xl font-bold text-sky-300">Welcome to Blog Page</h2><hr>
+    <header>
+        <div class="flex justify-center my-5">
+            <img src="./Logo.png" alt="">
+        </div>        
+    </header>
+    <main>
+        <section>
+            <div>
+                <div class="collapse collapse-plus bg-base-200 mb-4">
+                    <input type="radio" name="my-accordion-3" checked="checked">
+                    <div class="collapse-title text-xl font-medium">
+                        Discuss the scope of <span class="bg-slate-300 px-4 rounded-lg">var</span> , <span
+                            class="bg-slate-300 px-4 rounded-lg">let</span> , and <span
+                            class="bg-slate-300 px-4 rounded-lg">const</span>
+                    </div>
+                    <div class="collapse-content">
+                        <p>In the <b class="text-red-400">var</b> tab, when you will run the code, you will see an error as a is not defined because var variables are only
+                        accessible in the function scope. </p>
+                       <p>In the <b class="text-red-400">Let</b> tab, when you run the code, you will see an error as i is not defined because let variables are only
+                        accessible within the block they are declared.</p>
+                        <p>In the <b class="text-red-400">const</b>  tab, when you run the code, you will see that x was defined under the block was accessible, but when you
+                        try to access x outside that block, you will get an error.</p>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="collapse collapse-plus bg-base-200 mb-4">
+                    <input type="radio" name="my-accordion-3">
+                    <div class="collapse-title text-xl font-medium">
+                        Tell us the use cases of <span class="bg-slate-300 px-4 rounded-lg">null</span> and <span
+                            class="bg-slate-300 px-4 rounded-lg">undefined</span>
+                    </div>
+                    <div class="collapse-content">
+                        <p><b class="text-red-400">Undefined</b> means the variable has been declared, but its value has not been assigned.<b class="text-red-400"> Null </b>means an empty value or a
+                        blank value.</p>
+                    </div>
+                </div>
+
+                <div class="collapse collapse-plus bg-base-200 mb-4">
+                    <input type="radio" name="my-accordion-3">
+                    <div class="collapse-title text-xl font-medium">
+                        What do you mean by REST API?
+                    </div>
+                    <div class="collapse-content">
+                        <p>A REST API (Representational State Transfer Application Programming Interface) is a set of rules and conventions for
+                        building and interacting with web services. It's an architectural style for designing networked applications. REST is
+                        not a protocol like HTTP but rather a set of constraints and principles that use HTTP as the underlying communication
+                        protocol</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="flex justify-center">
+            <a href="./index.html"
+                class="bg-[#FF1F3D] text-white mt-4 mb-16 px-6 py-2 text-xl font-semibold rounded-lg">Go Home</a>
+        </div>
+    </main>
+
+</body>
+</html>
